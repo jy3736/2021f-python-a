@@ -2,10 +2,21 @@ check50: true
   checks:
     w02-hw01:
       - run: python hw01.py
+        stdin: 0
+        stdout: 
+        stdin: -2
+        stdout: |
+        stdin: 1
+        stdout: |
+          *
         stdin: 4
         stdout: |
           *
           **
           ***
           ****
+        stdin: 2
+        stdout: |
+          *
+          **
         exit: 0
