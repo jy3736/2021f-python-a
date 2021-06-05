@@ -9,7 +9,7 @@ def exists():
 @check50.check(exists)
 def compiles():
     """hello.c compiles"""
-    check50.c.compile("hello.c", cc="gcc", cflags="lm")
+    check50.c.compile("hello.c", cc="gcc", lm=True)
 
 @check50.check(compiles)
 def hello():
