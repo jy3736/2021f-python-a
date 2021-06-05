@@ -12,9 +12,9 @@ def compiles():
     check50.c.compile("hello.c", cc="gcc")
 
 @check50.check(compiles)
-def emma():
+def hello():
     """responds to name Emma"""
-    check50.run("./hello").stdin("Emma").stdout("Emma").exit()
+    check50.run("./hello").stdout("Hello, world!\n").exit()
 
 @check50.check(compiles)
 def rodrigo():
