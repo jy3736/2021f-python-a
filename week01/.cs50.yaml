@@ -13,10 +13,8 @@ check50:
       - run: python hw02.py
         stdin: 
             - 1 2
-            - 1 2 3
             - 1 2 3 4
         stdout: 
             - 1 2 3
-            - 6
             - 1 2 3 4 10
         exit: 0
