@@ -1,6 +1,6 @@
 check50:
   checks:
-    hello world:
+    w01-hw01 basic check:
       - run: python hw01.py
         stdout: Hello Python World!
         exit: 0
