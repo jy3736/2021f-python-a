@@ -1,4 +1,4 @@
-check50:
+check50: True
   checks:
     w02-hw01:
       - run: python hw01.py
