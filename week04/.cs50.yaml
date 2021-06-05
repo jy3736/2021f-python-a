@@ -1,2 +1,1 @@
-check50:
-  checks: check.py
+check50: true
