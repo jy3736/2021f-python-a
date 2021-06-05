@@ -1,5 +1,5 @@
-check50: 
-  checks: __init__.py
+check50: true
+  checks:
     w01-hw01 basic check:
       - run: python hw01.py
         stdout: Hello Python World!
