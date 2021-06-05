@@ -4,12 +4,12 @@ check50:
       - run: python hw01.py
         stdout: Hello Python World!
         exit: 0
-    w01-hw02 basic check:
+    w01-hw02 1 test case:
       - run: python hw02.py
         stdin: 1 2
         stdout: 1 2 3
         exit: 0
-    w01-hw02 advanced check:
+    w01-hw02 3 test cases:
       - run: python hw02.py
         stdin: 1 2
         stdout: 1 2 3
