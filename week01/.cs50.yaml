@@ -1,4 +1,4 @@
-check50: xxx
+check5:
   checks:
     w01-hw01 basic check:
       - run: python hw01.py
