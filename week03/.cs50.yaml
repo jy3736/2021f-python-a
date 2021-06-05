@@ -1,2 +1,2 @@
-check50: true
-  checks:
+check50:
+  checks: __init__.py
