@@ -1,7 +1,7 @@
 check50:
   checks:
     w02-hw01:
-      - run: python hw02.py
+      - run: python hw01.py
         stdin: 2
         stdout: |
           *
