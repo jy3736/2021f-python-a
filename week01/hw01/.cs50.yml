@@ -1,0 +1,2 @@
+check50:
+  checks: test01.py
